@@ -14,7 +14,7 @@
             "Push-Location \"$dir\"",
             "7z x Quicker-$version\\dist\\Quicker.7z",
             "Remove-Item Quicker-$version -Recurse",
-            "Start-Process Quicker.exe",
+            "Start-Process Quicker.msi",
             "Pop-Location"
         ]
     },
